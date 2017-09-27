@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JelvixTest</string>
+    <string name="empty_email_error">Please input your email</string>
+    <string name="empty_password_error">Please input your password</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_in_register">Sign Up</string>
+    <string name="progress_text">Loading ...</string>
+    <string name="ok">Ok</string>
+    <string name="sign_up_label">Sign Up</string>
 </resources>
