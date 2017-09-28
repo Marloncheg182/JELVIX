@@ -3,6 +3,7 @@ package com.jelvixtest.jelvixtest.api;
 import com.jelvixtest.jelvixtest.mvp.models.auth.AuthResponse;
 import com.jelvixtest.jelvixtest.mvp.models.auth.login.SignInRequest;
 import com.jelvixtest.jelvixtest.mvp.models.auth.signup.SignUpRequest;
+import com.jelvixtest.jelvixtest.mvp.models.feed.FeedResponse;
 
 import io.reactivex.Observable;
 
@@ -20,5 +21,9 @@ public class JelvixRepository {
 
     public Observable<AuthResponse> signUp(SignUpRequest signUpRequest){
         return mAuthAPI.signUp(signUpRequest);
+    }
+
+    public Observable<FeedResponse> getAllUsers(int page){
+        return mAuthAPI.getAllUsers(page);
     }
 }

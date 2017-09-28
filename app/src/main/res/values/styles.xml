@@ -25,6 +25,11 @@
         <item name="android:textColor">@color/colorAccent</item>
     </style>
 
+    <style name="CardTextView">
+        <item name="android:textSize">@dimen/middle_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
     <style name="ProgressBarTextView">
         <item name="android:textSize">@dimen/middle_text_size</item>
         <item name="android:textColor">@color/colorDefaultWhite</item>
@@ -45,6 +50,13 @@
         <item name="android:background">@drawable/auth_button_form</item>
     </style>
 
+    <style name="UserButton">
+        <item name="android:textSize">@dimen/middle_text_size</item>
+        <item name="android:textColor">@color/colorDefaultWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
     <style name="AuthInputSelectableTextView">
         <item name="android:textSize">@dimen/middle_text_size</item>
         <item name="android:textColor">@color/auth_selected_text</item>
@@ -63,6 +75,11 @@
     <style name="ToolbarTitleTextView">
         <item name="android:textSize">@dimen/title_text_size</item>
         <item name="android:textColor">@color/colorDefaultWhite</item>
+    </style>
+
+    <style name="UserNameTextView">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
 </resources>

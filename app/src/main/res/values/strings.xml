@@ -10,4 +10,7 @@
     <string name="progress_text">Loading ...</string>
     <string name="ok">Ok</string>
     <string name="sign_up_label">Sign Up</string>
+    <string name="users_feed_label">Users</string>
+    <string name="user_info_label">User Info</string>
+    <string name="close_btn_label">Close</string>
 </resources>

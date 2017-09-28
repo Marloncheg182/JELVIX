@@ -130,6 +130,6 @@ public class SignInFragment extends MvpAppCompatFragment implements SignInView {
     @Override
     public void successSignIn() {
         Log.d(LOG_TAG, "successSignIn");
-        FeedActivity_.intent(this).flags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK).start();
+        FeedActivity_.intent(this).start();
     }
 }

@@ -109,7 +109,6 @@
 
         </android.support.design.widget.TextInputLayout>
 
-
         <Button
             android:id="@+id/sign_up_button"
             style="@style/AuthButton"

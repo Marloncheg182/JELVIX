@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.jelvixtest.jelvixtest.di.modules.ContextModule;
 import com.jelvixtest.jelvixtest.di.modules.auth.AuthRepoModule;
+import com.jelvixtest.jelvixtest.mvp.presenters.FeedPresenter;
 import com.jelvixtest.jelvixtest.mvp.presenters.SignInPresenter;
 import com.jelvixtest.jelvixtest.mvp.presenters.SignUpPresenter;
 
@@ -20,4 +21,6 @@ public interface AuthComponent {
     void inject(SignInPresenter presenter);
 
     void inject(SignUpPresenter presenter);
+
+    void inject(FeedPresenter feedPresenter);
 }

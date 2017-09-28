@@ -131,6 +131,6 @@ public class SignUpFragment extends MvpAppCompatFragment implements SignUpView{
     @Override
     public void successSignUp() {
         Log.d(LOG_TAG, "successSignUp");
-        FeedActivity_.intent(this).flags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK).start();
+        FeedActivity_.intent(this).start();
     }
 }

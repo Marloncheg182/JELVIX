@@ -21,10 +21,6 @@ import io.reactivex.disposables.Disposable;
 import okhttp3.ResponseBody;
 import retrofit2.HttpException;
 
-/**
- * Created by Oleg Romanenchuk on 27.09.2017.
- */
-
 @InjectViewState
 public class SignInPresenter extends BasePresenter<SignInView> {
 
